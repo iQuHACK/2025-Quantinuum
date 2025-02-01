@@ -32,6 +32,19 @@ Below we describe the two parts of the Quantinuum iQuHack 2025 challenge. For ea
 - It should be somehow related to circuit simulations of quantum systems.
 
 
+## When you are ready to get started
+
+## When you are ready to begin
+
+* One member of the team should fork this repository and share the URL with team members. 
+* When the challenge begins you will get an email inviting you to set up an account on the Quantinuum Nexus website.
+* Follow the instructions on the invite email and visit [https://nexus.quantinuum.com](https://nexus.quantinuum.com). 
+* Once you've logged in, click on the burger menu in the top left corner and select 'Lab'.
+* Select 'Start' to boot up your hosted workspace.
+* Once in the workspace, click on the Git icon in the left-most panel and clone your team's forked repo using the URL from above. Git cloning using https is recommended here. You will need to set up a github [classic token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) which you should store securely on your device. If you need help with this, please ask.
+* When you are ready to submit your project, send a link to your fork of this repository in the quantinuum challenge slack before the time limit.
+
+
 
 ## Hamiltonian simulation
 
