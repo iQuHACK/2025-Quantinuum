@@ -39,11 +39,17 @@ Below we describe the two parts of the Quantinuum iQuHack 2025 challenge. For ea
 * Follow the instructions on the invite email and visit [https://nexus.quantinuum.com](https://nexus.quantinuum.com). 
 * Once you've logged in, click on the burger menu in the top left corner and select 'Lab'.
 * Select 'Start' to boot up your hosted workspace.
-* Once in the workspace, click on the Git icon in the left-most panel and clone your team's forked repo using the URL from above. Git cloning using https is recommended here. You will need to set up a github [classic token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) which you should store securely on your device. If you need help with this, please ask.
+* Once in the workspace, click on the Git icon in the left-most panel and clone your team's forked repo using the URL from above. Git cloning using https is recommended here. You will need to set up a github [classic token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) which you should store securely on your device (make sure to grant write permissions for the repository). If you need help with this, please ask.
 * When you are ready to submit your project, send a link to your fork of this repository in the Quantinuum challenge discord server before the time limit.
 * If you would like to test out nexus try running the example on [noiseless simulation](https://github.com/iQuHACK/2025-Quantinuum/blob/main/notebooks/an_intro_to_quantinuum_nexus.ipynb) and also using the [noisy emulator ](https://github.com/iQuHACK/2025-Quantinuum/blob/main/notebooks/an_intro_to_quantinuum_nexus_part2.ipynb).  
 
-
+## Pushing to GitHub from Nexus
+* On the left panel click the GitHub icon
+![Left Panel](images/left_panel.png)
+* Write click on the file and select stage
+* Write and commit message and click `commit`
+* Click on the Git tab and select `Push to Remote`, then enter your GitHub `username` and `personal access token`
+![push_to_remote](images/push_to_remote.png)
 
 ## Hamiltonian simulation
 
